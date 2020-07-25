@@ -2,7 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="text-center">
+        <h1 class="display-4"><strong>APP_NAME</strong>: "@ViewData["APP_NAME"]"</h1>
+        <h1 class="display-4"><strong>MACHINE_NAME</strong>: "@ViewData["MACHINE_NAME"]"</h1>
+        <h1 class="display-4"><strong>REQUEST_HOST</strong>: "@ViewData["REQUEST_HOST"]"</h1>
+        <h1 class="display-4"><strong>REQUEST_PATH</strong>: "@ViewData["REQUEST_PATH"]"</h1>
+    </div>

@@ -54,8 +54,8 @@ namespace RoutedWeb
                     pattern: "{*.}",
                     defaults: new
                     {
-                        controller="Home",
-                        action="Index"
+                        controller = "Home",
+                        action = "Index"
                     });
             });
         }
